@@ -23,7 +23,7 @@ fn main() {
         println!("You get lost in the Temple of Water and drown...Should've equipped Zora's Tunic");
         break;
       } else {
-        println!("Turns out mama raised a bitch");
+        println!("Turns out mama raised a bitch...");
         input.clear();
       }
     } else {
@@ -57,13 +57,13 @@ fn left_path(input: &mut String) -> &mut String {
   input.clear();
 
   println!("1.) Traverse into the mist...");
-  println!("2.) Run away like a little bitch.");
+  println!("2.) Run away and take the the right path.");
   io::stdin().read_line(input).expect("Provide a string representation of 1 or 2, bitch.");
   return input;
 }
 
 fn right_path(input: &mut String) -> &mut String {
-  println!("You chose the right path!");
+  println!("*Enters right path*");
   println!("You find yourself in stuck in a cell with the infamous Tossed Salad Man. How do you handle this situation?");
   input.clear();
 
