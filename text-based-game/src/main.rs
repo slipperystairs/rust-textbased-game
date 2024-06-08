@@ -1,14 +1,4 @@
 use std::io;
-// Text based game
-// 3 paths that all lead to death
-// - Forward path
-// - Left path
-// - Right path
-// Each path should have a choice
-// - The choice always leads to death.
-// - A function for each path.
-// - Lets try to do this mostly on our own, only using GPT when we are truly stuck.
-// - Look back at our example code if needed, but try not to.
 fn main() {
   let mut input: String = String::new();
   println!("Choose wisely of the path that will decide your destiny.");
